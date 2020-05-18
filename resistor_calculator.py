@@ -17,6 +17,7 @@ white = (255, 255, 255)
 
 #app parameters
 app = App(title='Resistor Value', width=500, height=200, bg=grey, layout='grid')
+
 def one():
     if band1.value == 'black':
         color1.value = int(0)

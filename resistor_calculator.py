@@ -1,6 +1,9 @@
 #!/usr/bin/python3
+#this app uses GUIZERO
 from guizero import *
 import math
+
+#define colors
 black = (0, 0, 0)
 brown = (165, 42, 42)
 red = (255, 0, 0)
@@ -11,6 +14,8 @@ blue = (0, 0, 255)
 violet = (128, 0, 128)
 grey = (128, 128, 128)
 white = (255, 255, 255)
+
+#app parameters
 app = App(title='Resistor Value', width=500, height=200, bg=grey, layout='grid')
 def one():
     if band1.value == 'black':
